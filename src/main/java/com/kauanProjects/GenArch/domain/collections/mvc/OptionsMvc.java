@@ -15,6 +15,7 @@ public class OptionsMvc {
     private int repositoryCount;
     private int domainCount;
     private int configCount;
+    private int exceptionCount;
     private Set<String> annotations;
 
 }

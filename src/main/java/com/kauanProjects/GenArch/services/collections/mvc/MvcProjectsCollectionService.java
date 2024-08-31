@@ -67,6 +67,7 @@ public class MvcProjectsCollectionService {
         options.setRepositoryCount(mvcProjectsCollectionDto.getOptions().getRepositoryCount());
         options.setDomainCount(mvcProjectsCollectionDto.getOptions().getDomainCount());
         options.setConfigCount(mvcProjectsCollectionDto.getOptions().getConfigCount());
+        options.setExceptionCount(mvcProjectsCollectionDto.getOptions().getExceptionCount());
         options.setAnnotations(mvcProjectsCollectionDto.getOptions().getAnnotations());
 
         return options;

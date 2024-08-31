@@ -31,6 +31,9 @@ public class OptionsMvcDto {
     @Min(value = 0, message = "Config count must be non-negative")
     private int configCount;
 
+    @Min(value = 0, message = "Exception count must be non-negative")
+    private int exceptionCount;
+
     private Set<String> annotations;  // Can be null if the user doesn't want to add annotations
 
 }
